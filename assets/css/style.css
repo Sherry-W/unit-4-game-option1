@@ -1,7 +1,100 @@
 body {
+	margin: 0;
+	padding: 0;
+	background-color: black;
+	background-image: url("../images/crystal_butterfly.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+    height: 100%; 
+    color: white;
+}
 
+.wrap {
+	margin: 20px 100px;
+}
+
+span {
+	color: #ECE3F7;
+	font-size: 40px;
+	padding: 10px 0px;
+}
+
+#container {
+	width: 350px;
+	background-color: #6C1A74;
+	color: #DDCEEE;
+	padding: 10px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+p {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#randomNum {
+	width: 150px;
+	height: 70px;
+	background-color: #AF6CEE;
+	margin-bottom: 10px;
+	font-size: 50px;
+	text-align: center;
+	padding-top: 20px;
+	float: left;
+}
+
+.scoreCount {
+	width: 80px;
+	height: 84px;
+	background-color: #A759F1;
+	margin-left: 160px;
+	padding-top: 6px;
+	padding-left: 10px;
+}
+
+#msg {
+	display: none;
+	width: 85px;
+	height: 55px;
+	background-color: white;
+	margin: 0;
+	padding: 0;
+	margin-top: -90px;
+    margin-left: 260px;
+    padding-top: 35px;
+    padding-left: 10px;
+    font-size: 20px;
+    color: black;
 }
 
 img {
-	width: 50px;
+	width: 70px;
+	cursor: pointer;
+	margin-right: 6px;
+}
+
+#crystals {
+	clear: both;
+}
+
+#text, #userScore {
+	width: 150px;
+	background-color: #8379C9;
+}
+
+#text {
+	width: 145px;
+	margin: 10px 0px;
+	padding: 5px 0px 5px 5px;
+}
+
+#userScore {
+	height: 70px;
+	font-size: 50px;
+	text-align: center;
+	padding-top: 20px;
 }
